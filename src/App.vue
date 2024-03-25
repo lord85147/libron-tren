@@ -10,7 +10,6 @@
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-// import the socket.io client into our App component
 import io from 'socket.io-client'
 
 export default {
@@ -79,14 +78,4 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-.errorDiv {
-  border: 1px;
-  padding: 15px;
-  background-color: red;
-  color: white;
-  margin-bottom: 10px;
-}
 </style>
